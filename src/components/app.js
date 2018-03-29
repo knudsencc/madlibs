@@ -14,7 +14,6 @@ export default class App extends Component {
           </div>
           <MadlibForm />
 
-
         </div>
       </div>
     );
