@@ -7,7 +7,7 @@
 }
 
 .card {
-    width: 86vw;
+    width: 93vw;
     border-radius: 7px;
     box-shadow: 0 4px 30px 0 rgba(0,0,0,0.75);
     padding: 50px 80px;
@@ -16,7 +16,7 @@
 .input-wrapper {
     margin: 36px 0px;
 }
-
+ 
 input {
     border-top: 0px;
     border-left: 0px;
@@ -25,7 +25,7 @@ input {
     text-align: center;
     font-weight: 500;
     width: 100%;
-}
+} 
 
 .input-description {
     color: #b3b3b3;
@@ -34,7 +34,7 @@ input {
 }
 
 .green-label {
-    background-color: $bottegaGreen;
+    background-color: $midnightBlue;
     border-radius: 100px;
     width: 26px;
     height: 26px;
@@ -52,7 +52,7 @@ input {
 
 .generate-button {
     @include buttonStyles;
-    background-color: $bottegaGreen;
+    background-color: $midnightBlue;
 }
     
 .clear-button, a {
