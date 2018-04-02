@@ -86,14 +86,14 @@ class ContractForm extends Component {
     render() {
 
         this.inputData = [
-            {placeholder: 'Photographer', prop: 'photographer', state: this.state.color},
-            {placeholder: 'Model', prop: 'model', state: this.state.pluralNoun},
-            {placeholder: 'Date', prop: 'date', state: this.state.adjectiveOne},
-            {placeholder: 'Session Date', prop: 'sessionDate', state: this.state.celebrityOne},
-            {placeholder: 'Photographers Full Name', prop: 'signitureOne', state: this.state.adjectiveTwo},
-            {placeholder: 'Model Full Name', prop: 'signitureTwo', state: this.state.nounOne},
-            {placeholder: 'City', prop: 'city', state: this.state.numberOne},
-            {placeholder: 'Witness Full Name', prop: 'witness', state: this.state.numberTwo},
+            {placeholder: 'Photographer', prop: 'photographer', state: this.state.photographer},
+            {placeholder: 'Model', prop: 'model', state: this.state.model},
+            {placeholder: 'Date', prop: 'date', state: this.state.date},
+            {placeholder: 'Session Date', prop: 'sessionDate', state: this.state.sessionDate},
+            {placeholder: 'Photographers Full Name', prop: 'signitureOne', state: this.state.signitureOne},
+            {placeholder: 'Model Full Name', prop: 'signitureTwo', state: this.state.signitureTwo},
+            {placeholder: 'City', prop: 'city', state: this.state.city},
+            {placeholder: 'Witness Full Name', prop: 'witness', state: this.state.witness},
         ]
             
       return (
@@ -122,3 +122,4 @@ class ContractForm extends Component {
   }
 
 export default ContractForm;
+ 
